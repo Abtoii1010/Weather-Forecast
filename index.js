@@ -33,8 +33,8 @@ async function getWeather(cityname) {
   let data = await response.json();
 
   city.textContent = `City: ${data.name}`;
-  temp.textContent = `Temperature: ${data.main.temp}`;
-  humid.textContent = `Humidity : ${data.main.humidity}`;
+  temp.textContent = `Temperature: ${data.main.temp}℃`;
+  humid.textContent = `Humidity : ${data.main.humidity}%`;
   type.textContent = `Weather: ${data.weather[0].description}`;
   result.style.display = "block";
 }
