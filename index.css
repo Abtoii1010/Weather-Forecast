@@ -1,0 +1,83 @@
+body {
+  box-sizing: border-box;
+}
+
+.H1 {
+  text-align: center;
+  font-size: 3rem;
+  color: blueviolet;
+}
+form {
+  display: flex;
+  min-width: 200px;
+  max-width: 700px;
+  flex-direction: row;
+  align-self: center;
+  margin: auto;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+div {
+  min-width: 100px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 3px 4px 4px #8d8484;
+  display: none;
+  border: 2px solid transparent;
+  background: linear-gradient(180deg, rgb(255, 179, 0), rgb(151, 179, 235));
+}
+
+input {
+  width: 400px;
+  padding: 12px;
+  margin-left: 2rem;
+  font-size: 48px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 2px solid #c0bdbda1;
+}
+
+button {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(121, 121, 218);
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.8s;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(73, 73, 207);
+}
+
+#city {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(228, 253, 0);
+}
+
+#Temp {
+  color: rgb(255, 253, 156);
+}
+
+#Humid {
+  color: #2a5fe6a1;
+}
+
+#Type {
+  color: rgba(233, 13, 13, 0.795);
+}
+p {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+@keyframes border {
+  from {
+  }
+}
